@@ -11,7 +11,7 @@ dt=pd.read_csv('./data/iris-3.csv')
 st.header("ข้อมูลดอกไม้🪴")
 st.write(dt.head(10))
 
-st.subheader("สถิติข้อมูลดอกไม้ Iris")
+st.subheader("สถิติข้อมูลดอกไม้ Iris📊")
 st.write('ผลรวม')
 cl1,cl2,cl3,cl4=st.columns(4)
 cl1.write(dt['sepallength'].sum())
